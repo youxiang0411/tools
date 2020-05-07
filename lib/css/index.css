@@ -1,0 +1,54 @@
+.layui-table tbody tr:hover, .layui-table thead tr, .layui-table-click, .layui-table-header, .layui-table-hover, .layui-table-mend, .layui-table-patch, .layui-table-tool, .layui-table-total, .layui-table-total tr, .layui-table[lay-even] tr:nth-child(even) {
+    background-color: #fafafa !important;
+}
+.layui-table th, .layui-table td {
+    border: 0 !important;
+}
+.layui-table th {
+    color: #606266 !important;
+    font-weight: 700;
+}
+.layui-table td {
+    color: #303133 !important;
+}
+.layui-table tr {
+    border-bottom: 1px solid #ebeef5 !important;
+}
+.layui-layer-title {
+    background-color: #fff !important;
+}
+.layui-tab-brief > .layui-tab-title .layui-this {
+    color: #3654ea !important;
+}
+.layui-tab-brief > .layui-tab-more li.layui-this:after, .layui-tab-brief > .layui-tab-title .layui-this:after {
+    border-bottom: 2px solid #3654ea !important;
+}
+
+.layui-layer .layui-layer-content .app-list {
+    padding: 10px;
+}
+.layui-layer .layui-layer-content .app-list .app-list-item {
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: #fff;
+    color: #303133;
+    border: 1px solid #ebeef5;
+    border-radius: 4px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.06);
+}
+.layui-layer .layui-layer-content .app-list .app-list-item:hover {
+    color: #3654ea;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.layui-layer .layui-layer-content .app-list .app-list-item .app-list-item-content {
+    display: flex;
+    align-items: center;
+    height: 38px;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
